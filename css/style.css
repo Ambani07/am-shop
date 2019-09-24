@@ -1,0 +1,120 @@
+/* ==== Google font ==== */
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+@import url('font-awesome.css'); 
+
+body {
+	font-family:'Open Sans', Arial, sans-serif;
+	font-size:14px;
+	font-weight:300;
+	line-height:1.6em;
+	color:#333;
+	background-color:#fff;
+}
+
+nav{
+  position:  relative !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color:#333;
+	line-height:1.1em;
+}
+
+p {
+	color:#8a8d94;
+}
+
+a:hover {
+  text-decoration: none;
+  color:#36CBD4;	
+}
+
+.main{
+  margin-top: 20vh !important;
+}
+
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 30px;
+  line-height: 20px;
+}
+a.navbar-brand span {
+	color:#fff;
+	font-size:35px;	
+}
+
+.navbar-collapse {
+	float:right;
+	
+}
+.navbar-fixed-top {
+
+  background-color:#0db4be;
+}
+.nav-tabs {
+  border-bottom:0; 
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 20px 25px;
+}
+.nav-tabs > li > a {
+  margin-right: 2px;
+  border: 0;
+  border-radius: 0;
+  text-transform:uppercase;
+  font-weight:600;
+  color:#fff;
+}
+.nav-tabs > li > a:hover {
+	background-color: #36CBD4;
+}
+
+
+.badge-warning{
+  position: relative !important;
+  bottom: 7px !important;
+  background-color: #FFC106 !important;
+  color: #333 !important;
+}
+
+
+/* Footer */
+
+ footer {
+  background: #fff;
+}
+
+.footer-div {
+	  margin-top:40px;
+    background: #0db4be;
+    padding: 20px 0;
+    position: relative;
+}
+
+.footer-cart-div{
+  margin-top:40px;
+    background: #0db4be;
+    padding: 20px 0;
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #fff;
+    margin: 0;   
+    font-weight: 300;
+    float: left;
+}
+.footer-text a{
+    color: #fff;
+}
+.footer-text a:hover {
+    text-decoration: underline;
+    color: #36CBD4;
+}
