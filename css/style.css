@@ -15,10 +15,7 @@ nav{
   position:  relative !important;
 }
 
-h1,h2,h3,h4,h5,h6 {
-	color:#333;
-	line-height:1.1em;
-}
+
 
 p {
 	color:#8a8d94;
@@ -88,13 +85,6 @@ a.navbar-brand span {
   background: #fff;
 }
 
-.footer-div {
-	  margin-top:40px;
-    background: #0db4be;
-    padding: 20px 0;
-    position: relative;
-}
-
 .footer-cart-div{
   margin-top:40px;
     background: #0db4be;
@@ -110,11 +100,4 @@ a.navbar-brand span {
     margin: 0;   
     font-weight: 300;
     float: left;
-}
-.footer-text a{
-    color: #fff;
-}
-.footer-text a:hover {
-    text-decoration: underline;
-    color: #36CBD4;
 }
